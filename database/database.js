@@ -10,5 +10,5 @@ mongoose.connect(mongoUrl, {
     console.log('DB Connected!')
 })
 .catch(err => {
-    console.log("Error");
+    console.log("Error", err);
 });
